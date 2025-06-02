@@ -1,5 +1,7 @@
 .App {
+  position: relative;
   text-align: center;
+  height: 500px;
 }
 
 .App-logo {
@@ -36,3 +38,20 @@
     transform: rotate(360deg);
   }
 }
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('background/tone-board-bg.png'); /* 👈 Arka plan resmi */
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  opacity: 0.25; /* 👈 Solukluk burada */
+  z-index: -1; /* 👈 İçeriğin arkasında kal */
+  pointer-events: none; /* 👈 Tıklamayı engellemesin */
+}
+
