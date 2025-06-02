@@ -45,7 +45,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://AtaCanYmc.github.io/tone-web-tree",
+  "homepage": "https://atacanymc.github.io/tone-web-tree",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
